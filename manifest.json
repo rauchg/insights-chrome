@@ -1,0 +1,17 @@
+{
+  "name": "insights.io",
+  "version": "1.0",
+  "description": "Shows Engine.IO data.",
+  "devtools_page": "devtools.html",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["eio.js"],
+      "all_frames": true
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}

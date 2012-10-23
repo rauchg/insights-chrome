@@ -1,0 +1,38 @@
+
+body {
+  margin: 0;
+  padding: 0 20px;
+  font-family: Helvetica;
+}
+
+h1 {
+  font-size: 18px;
+  color: #666;
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 14px;
+  color: #333;
+  margin: 10px 0;
+  text-transform: uppercase;
+  color: green;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table td {
+  font-size: 11px;
+}
+
+table th {
+  font-size: 13px;
+  padding: 5px;
+}
+
+table tr:nth-child(even) td {
+  background: #eee;
+}
